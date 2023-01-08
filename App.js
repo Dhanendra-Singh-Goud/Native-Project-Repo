@@ -61,6 +61,6 @@ const styles = StyleSheet.create({
   //   padding:8,
   //   borderRadius:6,
   //   borderColor:"purple",
-  //   color:'white'
+  //   color:'white' Hello
   // }
 });
