@@ -56,11 +56,4 @@ const styles = StyleSheet.create({
   goalsContainer:{
     flex:6,
   },
-  // listItem:{
-  //   margin:8,
-  //   padding:8,
-  //   borderRadius:6,
-  //   borderColor:"purple",
-  //   color:'white' Hello
-  // }
 });
