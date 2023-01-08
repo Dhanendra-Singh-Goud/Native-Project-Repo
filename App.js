@@ -55,15 +55,5 @@ const styles = StyleSheet.create({
   },
   goalsContainer:{
     flex:6,
-  },
-  listInput:{
-    borderRadius:6,
-    borderWidth:2,
-    padding:6,
-    margin:6,
-    backgroundColor:'purple',
-    color:'white'
-
   }
-  
 });
