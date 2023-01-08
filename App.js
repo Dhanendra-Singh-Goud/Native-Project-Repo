@@ -21,7 +21,7 @@ export default function App() {
       </View>
       <View style={styles.goalsContainer}>
        
-        {courseGoal.map((goal)=> <Text key={goal}  style = {styles.listInput} >{goal}</Text>)}
+        {courseGoal.map((goal) =><Text key={goal}  style = {styles.listInput} >{goal}</Text>)}
       </View>
       
     </View>
