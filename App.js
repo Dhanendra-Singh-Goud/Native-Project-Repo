@@ -21,7 +21,7 @@ export default function App() {
       </View>
       <View style={styles.goalsContainer}>
        
-        {courseGoal.map((goal)=> <Text key={goal} style={styles.listItem}>{goal}</Text>)}
+        {courseGoal.map((goal)=> <Text key={goal}  style = {styles.listInput} >{goal}</Text>)}
       </View>
       
     </View>
@@ -56,11 +56,14 @@ const styles = StyleSheet.create({
   goalsContainer:{
     flex:6,
   },
-  listItem:{
-    margin:8,
-    padding:8,
+  listInput:{
     borderRadius:6,
-    borderColor:"purple",
+    borderWidth:2,
+    padding:6,
+    margin:6,
+    backgroundColor:'purple',
     color:'white'
+
   }
+  
 });
